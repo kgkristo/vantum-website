@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt – Vantum AS</title>
+<meta name="description" content="La oss ta en uforpliktende samtale. Ingen forpliktelser – bare en ærlig samtale om behovet ditt.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/logo/favicon-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=12">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Hopp til hovedinnhold</a>
+
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Vantum AS – til forsiden">
+      <img src="assets/logo/vantum-full-color.png" alt="Vantum AS" class="brand-logo">
+    </a>
+
+    <nav class="main-nav" aria-label="Hovednavigasjon">
+      <a href="index.html" class="nav-link">Hjem</a>
+      <a href="tjenester.html" class="nav-link">Tjenester</a>
+      <a href="karriere.html" class="nav-link">Karriere</a>
+      <a href="om-oss.html" class="nav-link">Om oss</a>
+      <a href="kontakt.html" class="btn btn-primary btn-sm nav-cta">Kontakt oss</a>
+    </nav>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Åpne meny" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html" class="mobile-nav-link">Hjem</a>
+    <a href="tjenester.html" class="mobile-nav-link">Tjenester</a>
+    <a href="karriere.html" class="mobile-nav-link">Karriere</a>
+    <a href="om-oss.html" class="mobile-nav-link">Om oss</a>
+    <a href="kontakt.html" class="btn btn-primary mobile-nav-cta">Kontakt oss</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-a"></div>
+      <div class="hero-glow hero-glow-b"></div>
+    </div>
+    <img src="assets/logo/vantum-mark-white.png" alt="" aria-hidden="true" class="hero-mark">
+    <div class="container page-hero-inner">
+      <p class="eyebrow reveal" data-reveal>KONTAKT</p>
+      <h1 data-reveal>La oss ta en uforpliktende samtale.</h1>
+      <div class="page-hero-subtitle reveal" data-reveal>
+        <p>Vi er klare til å gå inn der du trenger operativ tyngde og kommersiell trygghet. Ingen forpliktelser – bare en ærlig samtale om behovet ditt.</p>
+        <p>Hos Vantum er vi alltid tilgjengelige for en uforpliktende samtale. Vi vet at behovet for operativ støtte ofte oppstår raskt, og derfor er den første samtalen alltid enkel og uforpliktende.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--light">
+    <div class="container contact-grid">
+
+      <div data-reveal-group>
+        <div class="contact-info-item" data-reveal>
+          <p class="contact-info-label">E-post</p>
+          <p class="contact-info-value"><a href="mailto:kim.kristoffersen@vantum.no">kim.kristoffersen@vantum.no</a></p>
+        </div>
+        <div class="contact-info-item" data-reveal>
+          <p class="contact-info-label">Telefon</p>
+          <p class="contact-info-value"><a href="tel:+4795365869">+47 953 65 869</a></p>
+        </div>
+        <div class="contact-info-item" data-reveal>
+          <p class="contact-info-label">Lokasjon</p>
+          <p class="contact-info-value">Hamar, Norge</p>
+          <p class="contact-info-note">Vi opererer primært på Østlandet, men tar oppdrag i hele Norge og internasjonalt.</p>
+        </div>
+        <div class="contact-info-item" data-reveal>
+          <p class="contact-info-label">Org.nr.</p>
+          <p class="contact-info-value">937 065 299 MVA</p>
+        </div>
+        <div class="contact-info-item" data-reveal>
+          <p class="contact-info-label">Kontaktperson</p>
+          <p class="contact-info-value">Kim Kristoffersen</p>
+          <p class="contact-info-note">Daglig leder</p>
+        </div>
+      </div>
+
+      <div data-reveal>
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3 class="contact-form-heading">Send oss en forespørsel</h3>
+
+          <div class="form-row form-row-pair">
+            <div>
+              <label class="form-label" for="cf-name">Navn *</label>
+              <input class="form-input" type="text" id="cf-name" name="name" required>
+            </div>
+            <div>
+              <label class="form-label" for="cf-company">Bedrift *</label>
+              <input class="form-input" type="text" id="cf-company" name="company" required>
+            </div>
+          </div>
+
+          <div class="form-row form-row-pair">
+            <div>
+              <label class="form-label" for="cf-email">E-post *</label>
+              <input class="form-input" type="email" id="cf-email" name="email" required>
+            </div>
+            <div>
+              <label class="form-label" for="cf-phone">Telefon *</label>
+              <input class="form-input" type="tel" id="cf-phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="cf-service">Hva trenger du hjelp med? *</label>
+            <select class="form-select" id="cf-service" name="service" required>
+              <option value="" disabled selected>Velg tjeneste</option>
+              <option>Prosjektledelse</option>
+              <option>Planlegging og prosjektering av teknisk infrastruktur</option>
+              <option>Anbuds- og kontraktsstøtte</option>
+              <option>Organisasjonsutvikling</option>
+              <option>Forretningsutvikling</option>
+              <option>Styrehjelp</option>
+              <option>Annet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="cf-message">Melding *</label>
+            <textarea class="form-textarea" id="cf-message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg">
+            Send forespørsel
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+
+          <p class="form-note">Sender du forespørselen, åpnes din e-postklient med meldingen forhåndsutfylt til kim.kristoffersen@vantum.no.</p>
+          <div class="form-success" id="form-success">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            E-postklienten din skal nå åpne seg med forespørselen forhåndsutfylt.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo/vantum-full-white.png" alt="Vantum AS" class="footer-logo">
+      <p class="footer-tagline">Vi leverer resultater der andre leverer rapporter.</p>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-heading">NAVIGASJON</p>
+      <a href="index.html">Hjem</a>
+      <a href="om-oss.html">Om oss</a>
+      <a href="tjenester.html">Tjenester</a>
+      <a href="karriere.html">Karriere</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-heading">KONTAKT</p>
+      <a href="mailto:kim.kristoffersen@vantum.no">kim.kristoffersen@vantum.no</a>
+      <a href="tel:+4795365869">+47 953 65 869</a>
+      <p>Hamar, Norge</p>
+      <p>Org.nr. 937 065 299</p>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Vantum AS. Alle rettigheter forbeholdt.</p>
+    <p>Operativ partner for prosjektbaserte virksomheter – etablert i 2026</p>
+  </div>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+</body>
+</html>
